@@ -16,6 +16,10 @@ gradlePlugin {
             id = "com.uesar.postapp.hilt"
             implementationClass = "com.uesar.postapp.convention.HiltConventionPlugin"
         }
+        register("androidCompose") {
+            id = "com.uesar.postapp.android.compose"
+            implementationClass = "com.uesar.postapp.convention.AndroidComposeConventionPlugin"
+        }
     }
 }
 
