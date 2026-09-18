@@ -17,6 +17,10 @@ class HiltConventionPlugin : Plugin<Project> {
             dependencies {
                 "implementation"(libs.findLibrary("hilt-android").get())
                 "ksp"(libs.findLibrary("hilt-compiler").get())
+
+                if (pluginManager.hasPlugin("org.jetbrains.kotlin.plugin.compose")) {
+                    "implementation"(libs.findLibrary("androidx-hilt-navigation-compose").get())
+                }
             }
         }
     }

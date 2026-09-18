@@ -7,10 +7,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
+import com.uesar.postapp.post.presentation.list.PostListScreen
 import com.uesar.postapp.ui.theme.PostAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -20,10 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             PostAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Text(
-                        text = "Hello, Android!",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    PostListScreen(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
