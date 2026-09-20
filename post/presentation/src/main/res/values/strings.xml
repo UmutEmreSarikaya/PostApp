@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_title">PostApp</string>
+    <string name="error_no_internet">Couldn\'t reach the server. Check your connection.</string>
+    <string name="error_server">Server error!</string>
+</resources>

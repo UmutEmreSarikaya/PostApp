@@ -1,6 +1,7 @@
 package com.uesar.postapp.post.presentation.model
 
-data class PostUiModel(
+internal data class PostUiModel(
     val title: String,
     val body: String,
+    val imageUrl: String
 )

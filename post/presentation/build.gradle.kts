@@ -6,3 +6,11 @@ plugins {
 android {
     namespace = "com.uesar.postapp.post.presentation"
 }
+
+dependencies {
+    implementation(project(":post:domain"))
+
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.coil.compose)
+    implementation(libs.retrofit.core)
+}
