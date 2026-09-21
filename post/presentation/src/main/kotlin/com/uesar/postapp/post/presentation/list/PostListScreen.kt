@@ -63,7 +63,7 @@ import com.uesar.postapp.post.presentation.model.PostUiModel
 
 @Composable
 fun PostListScreenRoot(
-    onPostClick: (Int) -> Unit = {},
+    onPostClick: (Int) -> Unit,
     modifier: Modifier = Modifier
 ) {
     val viewModel: PostListViewModel = hiltViewModel()
