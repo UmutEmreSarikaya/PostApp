@@ -5,3 +5,7 @@ plugins {
 android {
     namespace = "com.uesar.postapp.post.domain"
 }
+
+dependencies {
+    api(libs.kotlinx.coroutines.core)
+}

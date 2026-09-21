@@ -12,5 +12,4 @@ dependencies {
 
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.coil.compose)
-    implementation(libs.retrofit.core)
 }

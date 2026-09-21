@@ -9,7 +9,9 @@ android {
 
 dependencies {
     implementation(project(":post:domain"))
+    implementation(project(":core:db"))
     implementation(libs.retrofit.core)
     implementation(libs.retrofit.gson)
     implementation(libs.okhttp.logging)
+    testImplementation(libs.junit)
 }

@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name_title">PostApp</string>
-    <string name="error_no_internet">Couldn\'t reach the server. Check your connection.</string>
-    <string name="error_server">Server error!</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="refresh_confirmation_title">Refresh posts?</string>
+    <string name="refresh_confirmation_message">This will replace the saved posts with the latest data from the server.</string>
+    <string name="error_load_posts">Couldn\'t load posts. Please try again.</string>
+    <string name="error_storage">Couldn\'t access saved posts. Please try again.</string>
+    <string name="info_no_posts">No posts are available.</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_dismiss">Dismiss</string>
+    <string name="post_deleted">Post deleted</string>
+    <string name="error_delete_post">Couldn\'t delete the post.</string>
+    <string name="error_restore_post">Couldn\'t restore the post.</string>
 </resources>
