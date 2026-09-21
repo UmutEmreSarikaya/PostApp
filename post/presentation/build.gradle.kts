@@ -9,6 +9,9 @@ android {
 }
 
 dependencies {
+    testImplementation(libs.junit)
+    testImplementation(libs.robolectric)
+    testImplementation(libs.kotlinx.coroutines.test)
     implementation(project(":post:domain"))
 
     implementation(libs.androidx.lifecycle.runtime.ktx)
